@@ -365,8 +365,8 @@ void writeData(uint8_t addr, int datInt){
           if (addr==4) {
             tcl="maximum Steps";
           } else if (addr==8) {
-           
-          } tcl="current position"; 
+            tcl="current position";
+          } 
           Serial.print("Updated EEPROM data: " + tcl + " with value: ");
           testVar = 0; 
           // retrieve the data to show the stored value
